@@ -14,6 +14,8 @@
 		2BB546382BF7E2FF0025AD9F /* Things_3_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB546372BF7E2FF0025AD9F /* Things_3_5Tests.swift */; };
 		2BB546422BF7E2FF0025AD9F /* Things_3_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB546412BF7E2FF0025AD9F /* Things_3_5UITests.swift */; };
 		2BB546442BF7E2FF0025AD9F /* Things_3_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB546432BF7E2FF0025AD9F /* Things_3_5UITestsLaunchTests.swift */; };
+		2BCB8B7C2C1230FB000C621A /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB8B7B2C1230FB000C621A /* SidebarView.swift */; };
+		2BCB8B7F2C1231CE000C621A /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB8B7E2C1231CE000C621A /* TasksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		2BB5463D2BF7E2FF0025AD9F /* Things 3.5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Things 3.5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB546412BF7E2FF0025AD9F /* Things_3_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things_3_5UITests.swift; sourceTree = "<group>"; };
 		2BB546432BF7E2FF0025AD9F /* Things_3_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things_3_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2BCB8B7B2C1230FB000C621A /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		2BCB8B7E2C1231CE000C621A /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		2BB546242BF7E2FE0025AD9F /* Things 3.5 */ = {
 			isa = PBXGroup;
 			children = (
+				2BCB8B782C122F93000C621A /* Modules */,
 				2BB546252BF7E2FE0025AD9F /* Things_3_5App.swift */,
 				2BB546272BF7E2FE0025AD9F /* ContentView.swift */,
 				2BB546292BF7E2FF0025AD9F /* Assets.xcassets */,
@@ -127,6 +132,31 @@
 				2BB546432BF7E2FF0025AD9F /* Things_3_5UITestsLaunchTests.swift */,
 			);
 			path = "Things 3.5UITests";
+			sourceTree = "<group>";
+		};
+		2BCB8B782C122F93000C621A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB8B7D2C123113000C621A /* Tasks */,
+				2BCB8B792C1230E5000C621A /* Sidebar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2BCB8B792C1230E5000C621A /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB8B7B2C1230FB000C621A /* SidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		2BCB8B7D2C123113000C621A /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB8B7E2C1231CE000C621A /* TasksView.swift */,
+			);
+			path = Tasks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +291,8 @@
 			files = (
 				2BB546282BF7E2FE0025AD9F /* ContentView.swift in Sources */,
 				2BB546262BF7E2FE0025AD9F /* Things_3_5App.swift in Sources */,
+				2BCB8B7C2C1230FB000C621A /* SidebarView.swift in Sources */,
+				2BCB8B7F2C1231CE000C621A /* TasksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +457,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Things 3.5/Preview Content\"";
+				DEVELOPMENT_TEAM = BFBPCYVSHZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -450,6 +483,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Things 3.5/Preview Content\"";
+				DEVELOPMENT_TEAM = BFBPCYVSHZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
